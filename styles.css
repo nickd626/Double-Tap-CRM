@@ -1,3 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+}
+
 .sign-in{
   border-radius: 5px;
   background-color: white;
@@ -12,39 +17,98 @@
   color: white;
 }
 
-
-.footer {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  background-color: royalblue;
+.solutions {
   text-align: center;
 }
 
-h1{
-    padding-top: 30px;
+.container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "email-dashboards task-management"
+    "analytics project-calendars";
+}
+
+.email-dashboards {
+  grid-area: email-dashboards;
+}
+
+.task-management {
+  grid-area: task-management;
+}
+
+.analytics {
+  grid-area: analytics;
+}
+
+.project-calendars {
+  grid-area: project-calendars;
+}
+
+.email-dashboards,
+.task-management,
+.analytics,
+.project-calendars {
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 50px;
+}
+
+.learn-more-button {
+  background-color: white;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.learn-more-button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  color: white;
+  background-color: royalblue;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  padding-top: 30px;
 }
 
 .get-started-button {
-    height: 50px;
-    width: 250px;
-    color: white;
-    background-color: rgb(95, 210, 85);
-    font-size: 18px;
-    font-weight: bolder;
-    border-radius: 10px;
-    border: none;
-    margin-right: 30px;
+  height: 50px;
+  width: 250px;
+  color: white;
+  background-color: rgb(95, 210, 85);
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  margin-right: 30px;
+}
+
+.get-started-button:hover {
+  cursor: pointer;
 }
 
 .chat-with-us-button {
-    height: 50px;
-    width: 200px;
-    font-size: 16px;
-    color: royalblue;
-    font-weight: bolder;
-    border-radius: 10px;
-    border: none;
-    margin-left: 30px;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  color: royalblue;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  margin-left: 30px;
+}
+
+.chat-with-us-button:hover {
+  cursor: pointer;
 }
 
 .footer-bottom {
