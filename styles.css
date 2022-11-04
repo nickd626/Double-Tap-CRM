@@ -3,6 +3,20 @@ body {
   margin: 0%;
 }
 
+.sign-in{
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+}
+
+.try-it{
+  border-radius: 5px;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+}
+
 .solutions {
   text-align: center;
 }
