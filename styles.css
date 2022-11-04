@@ -1,3 +1,18 @@
+.sign-in{
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+}
+
+.try-it{
+  border-radius: 5px;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+}
+
+
 .footer {
   font-family: "Roboto", sans-serif;
   color: white;
