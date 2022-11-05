@@ -21,7 +21,46 @@ body {
   width: 100px;
 }
 
+.middle-box {
+  margin-left: 10%;
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 550px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.middle-box-right {
+  background-color: royalblue;
+  height: inherit;
+  padding: 35px;
+}
+
+.middle-box-text{
+  padding-top: 30px;
+}
+
+.middle-box-list-items{
+  padding-top: 20px;
+}
+
+.middle-box-learn-more{
+  color: white;
+  background-color: royalblue;
+  height: 50px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
 .solutions {
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -62,7 +101,7 @@ body {
   padding-top: 50px;
 }
 
-.learn-more-button {
+.solutions-learn-more-button {
   background-color: white;
   height: 30px;
   width: 150px;
@@ -128,6 +167,5 @@ h1 {
 .ellipse {
   width: 10px;
   height: 10px;
-  padding: 15px;
-  padding-top: 35px;
+  margin-top: 22.5px;
 }
