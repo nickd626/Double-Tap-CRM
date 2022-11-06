@@ -21,49 +21,96 @@ body {
   width: 100px;
 }
 
-.sideimg{
+.sideimg {
   float: right;
   height: 500px;
 }
 
-.header-tag{
+.header-tag {
   text-align: left;
+  margin-left: 7.5%;
 }
 
-.header-tag p{
+.header-tag p {
   color: grey;
   inset-block: left;
 }
 
-.sign-up{
-  border-radius: 5px;
+.sign-up {
+  border-radius: 10px;
   background-color: blue;
   border: 2px solid blue;
   color: white;
   padding: 5px 5px;
+  height: 50px;
+  width: 200px;
 }
 
-.chat-with{
-  border-radius: 5px;
+.chat-with {
+  border-radius: 10px;
   background-color: white;
   border: 2px solid blue;
   color: blue;
   padding: 5px 5px;
+  height: 50px;
+  width: 200px;
 }
-.header-bottom{
+
+.header-bottom {
   display: flex;
   list-style: none;
-  justify-content: left;  
-  font-size: 50%;  
-
+  justify-content: left;
+  font-size: 50%;
+  margin-left: 6.5%;
 }
 
-.header-bottom-text{
+.header-bottom-text {
+  font-size: 16px;
   padding: 20px;
 }
 
-.header-ellipse{
-  max-w
+.header-ellipse {
+  width: 10px;
+  height: 10px;
+  filter: invert();
+  margin-top: 25px;
+}
+
+.explore {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.explore-text {
+  padding: 50px;
+  width: 55%;
+  margin-left: 23%;
+}
+
+.explore-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: 12.75%;
+}
+
+.explore-flex-element {
+  width: 10%;
+  padding-top: 30px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.explore-flex-element:hover {
+  cursor: pointer;
+}
+
+.explore-flex-text {
+  padding-top: 20px;
+}
+
+.payments {
+  background-color: royalblue;
 }
 
 .middle-box {
@@ -214,3 +261,4 @@ h1 {
   height: 10px;
   margin-top: 22.5px;
 }
+
