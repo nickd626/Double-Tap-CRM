@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0%;
+  background-color:  #80bfff;
 }
 
 .sign-in {
@@ -261,4 +262,3 @@ h1 {
   height: 10px;
   margin-top: 22.5px;
 }
-
