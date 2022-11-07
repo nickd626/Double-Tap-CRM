@@ -1,0 +1,104 @@
+.test {
+  --center-split-max-width: 30vw;
+}
+h3 {
+  color: navy;
+}
+/* cod to align it */
+.test > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem;
+}
+/* Reset flex and padding rules for media elements because
+     we want them to bleed out */
+.test > img,
+.test > picture,
+.test > video {
+  display: block;
+  padding: 0;
+  /* Stuff is gonna get stretchy, so maintain
+       some order and crop media */
+  object-fit: cover;
+}
+@media (min-width: 720px) {
+  .test {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: stretch;
+  }
+  /* Apply our max width to the
+       direct child of the test child */
+  .test > * > * {
+    max-width: var(--center-split-max-width);
+  }
+  /* Set auto margins to push the content into the center */
+  .test > *:nth-child(odd) > * {
+    margin: 0 0 0 auto;
+  }
+  .test > *:nth-child(even) > * {
+    margin: 0 auto 0 0;
+  }
+  /* Reset max width and margin rules for media elements because
+       we want them to bleed out */
+  .test > img,
+  .test > picture,
+  .test > video {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+/* Presentational styles sampole */
+.test {
+  color: white;
+  font-size: 1.35rem;
+}
+.test {
+  background: #7ba0e9;
+}
+.test img {
+  filter: saturate(75%);
+}
+/* styles */
+body {
+  background: whitesmoke;
+  color: #262322;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+h1,
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  width: 100%;
+}
+h1,
+h2 {
+  text-align: center;
+  color: navy;
+  font-size: 2.5rem;
+  max-width: 30ch;
+  padding-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+article > p {
+  font-size: 1.2rem;
+  max-width: 60ch;
+  margin: 1rem 0 2rem 0;
+}
+@media (min-width: 720px) {
+  article > h1,
+  article > p {
+    margin-left: 3rem;
+  }
+}
+code {
+  font-size: 1.2em;
+  border: 1px solid #c1c1c1;
+  white-space: pre;
+  padding: 2px;
+  font-weight: 700;
+}
