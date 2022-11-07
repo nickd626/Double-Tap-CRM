@@ -4,6 +4,10 @@
 h3 {
   color: navy;
 }
+h1 {
+margin-left: 30%;
+margin-top: 50px;
+}
 /* cod to align it */
 .test > * {
   display: flex;
