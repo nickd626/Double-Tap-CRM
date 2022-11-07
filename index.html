@@ -12,7 +12,7 @@
     <title>Landing</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/CRM-Main/Logo.png" alt="DoubleTap" class="px-5 me-5"
@@ -40,7 +40,7 @@
               <a class="nav-link active" href="#">Pricing</a>
             </li>
             <li class="nav-item px-5 pt-3">
-              <a class="nav-link active" href="#">How it Works</a>
+              <a class="nav-link active" href="how-it-works.html">How it Works</a>
             </li>
             <li class="nav-item px-5 pt-3">
               <a class="nav-link active" href="#">Support</a>
@@ -51,7 +51,7 @@
               >
             </li>
             <li class="nav-item pt-2">
-              <a class="nav-link item2" href="#"
+              <a class="nav-link item2" href="sign-up.html"
                 ><button class="try-it">Try it Free</button></a
               >
             </li>
@@ -59,32 +59,90 @@
         </div>
       </div>
     </nav>
+    <img class="sideimg" src="images/CRM-How-it-works/Header-Side-1.png" alt="Header-Side-1">
     <div class="header-tag">
-      <h1>Focus on Your Business</h1>
-      <h3>Let Us Handle Everything Else</h3>
-      <p>
-        Subscription Billing, powered with revenue retention tools and a
-        seamless customer experience - without the technical hurdles.
-      </p>
-      <button>Sign up Free >></button>
-      <button>Chat With Us</button>
-      <br />
-      <p>Already Using DoubleTap? Sign In</p>
-      <br />
+    <h1><strong>Focus on Your Business<strong></h1>
+    <h3><strong>Let Us Handle Everything Else<strong></h3>
+    <p><strong> Subscription Billing, powered with revenue retention tools and a 
+    <br> seamless customer experience - without the technical hurdles.</strong></p></strong></p>
+    <br>
+    <button class="sign-up"><strong><a href="sign-up.html"></a>Sign up Free >></a></strong></button>
+    <button class="chat-with"><strong>Chat With Us</strong></button>
+    <br>
+    <br>
+    <p>Already Using <strong>Double</strong>Tap? <strong><a href="">Sign In</a></strong></p>
+    <br>
     </div>
     <div class="header-bottom">
-      <p class="header-bottom-text">Free 14 day trial</p>
-      <img src="/images/CRM-Main/Ellipse -1.png" class="ellipse" />
-      <p class="footer-bottom-text">Manage Customers in Minutes</p>
-      <img src="/images/CRM-Main/Ellipse -1.png" class="ellipse" />
-      <p class="header-bottom-text">Cancel at Anytime</p>
+      <a href=""></a>
+    <p class="header-bottom-text"><strong>Free 14 day trial</strong></p>
+    <img class="header-ellipse" src="images/CRM-How-it-works/Ellipse 42.png" alt="Ellipse">
+    <p class="header-bottom-text"><strong>Manage Customers in Minutes</strong></p>
+    <img class="header-ellipse"src="images/CRM-How-it-works/Ellipse 42.png" alt="Ellipse">
+    <p class="header-bottom-text"><strong>Cancel at Anytime</strong></p>
     </div>
-    <div class="sideimg">
-      <img
-        src="images/CRM-How-it-works/Header-Side-1.png"
-        alt="Header-Side-1"
-      />
+    <br>
+    <hr>
     </div>
+    <div class="explore">
+      <h1>Start to Explore Double Tap</h1>
+      <h4 class="explore-text">
+        A new and better way for small businesses to manage their customer base,
+        payments, and keep track of internal tasks.
+      </h4>
+      <div class="explore-flex">
+        <div class="explore-flex-element payments">
+          <img src="/images/CRM-Main/dollar.png" width="75" height="75" />
+          <h4 class="explore-flex-text">Payments</h4>
+        </div>
+        <div class="explore-flex-element">
+          <img src="/images/CRM-Main/Page-1.png" width="75" height="75" />
+          <h4 class="explore-flex-text">Retain</h4>
+        </div>
+        <div class="explore-flex-element">
+          <img src="/images/CRM-Main/layer1.png" width="75" height="75" />
+          <h4 class="explore-flex-text">Reporting</h4>
+        </div>
+        <div class="explore-flex-element">
+          <img
+            src="/images/CRM-Main/upanddown opposite sidebyside updown directions two arrows.png"
+            width="75"
+            height="75"
+          />
+          <h4 class="explore-flex-text">Convert</h4>
+        </div>
+      </div>
+    </div>
+    <div class="middle-box">
+      <div class="middle-box-left">
+        <img src="/images/CRM-Main/credit-card-picture.png" />
+      </div>
+      <div class="middle-box-right">
+        <h1 class="middle-box-text">Start Accepting Payments With Ease</h1>
+        <h4 class="middle-box-text">
+          Deliver the world of payment options and seamless checkout
+          experiences, making it easy for your customers to pay you for your
+          products and services.
+        </h4>
+        <ul class="middle-box-text">
+          <li class="middle-box-list-items">
+            Accept credit & debit cards, Paypal, ACH, Apple pay and more with
+            the flick of a switch
+          </li>
+          <li class="middle-box-list-items">
+            Process transactions in up to 32 different currencies
+          </li>
+          <li class="middle-box-list-items">
+            Integrate with popular payment gateways like Stripe, and Braintree
+          </li>
+          <li class="middle-box-list-items">
+            Select from a variety of different checkout options and experiences
+          </li>
+        </ul>
+        <input type="submit" value="Learn More" class="middle-box-learn-more" />
+      </div>
+    </div>
+
     <div class="solutions">
       <h1>Solutions To Fit Your Business Needs</h1>
       <div class="container">
@@ -95,7 +153,11 @@
             Automate client responses, and keep track of any communication your
             team has with a client.
           </p>
-          <input type="submit" value="Learn More" class="learn-more-button" />
+          <input
+            type="submit"
+            value="Learn More"
+            class="solutions-learn-more-button"
+          />
         </div>
         <div class="task-management">
           <img
@@ -108,7 +170,11 @@
             Automate client responses, and keep track of any communication your
             team has with a client.
           </p>
-          <input type="submit" value="Learn More" class="learn-more-button" />
+          <input
+            type="submit"
+            value="Learn More"
+            class="solutions-learn-more-button"
+          />
         </div>
         <div class="analytics">
           <img src="/images/CRM-Main/chart.png" width="100px" height="100px" />
@@ -117,7 +183,11 @@
             Automate client responses, and keep track of any communication your
             team has with a client.
           </p>
-          <input type="submit" value="Learn More" class="learn-more-button" />
+          <input
+            type="submit"
+            value="Learn More"
+            class="solutions-learn-more-button"
+          />
         </div>
         <div class="project-calendars">
           <img
@@ -130,7 +200,11 @@
             Automate client responses, and keep track of any communication your
             team has with a client.
           </p>
-          <input type="submit" value="Learn More" class="learn-more-button" />
+          <input
+            type="submit"
+            value="Learn More"
+            class="solutions-learn-more-button"
+          />
         </div>
       </div>
     </div>

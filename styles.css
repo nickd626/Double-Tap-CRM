@@ -22,7 +22,138 @@ body {
   width: 100px;
 }
 
+.sideimg {
+  float: right;
+  height: 500px;
+}
+
+.header-tag {
+  text-align: left;
+  margin-left: 7.5%;
+}
+
+.header-tag p {
+  color: grey;
+  inset-block: left;
+}
+
+.sign-up {
+  border-radius: 10px;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+  padding: 5px 5px;
+  height: 50px;
+  width: 200px;
+}
+
+.chat-with {
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+  padding: 5px 5px;
+  height: 50px;
+  width: 200px;
+}
+
+.header-bottom {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  font-size: 50%;
+  margin-left: 6.5%;
+}
+
+.header-bottom-text {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.header-ellipse {
+  width: 10px;
+  height: 10px;
+  filter: invert();
+  margin-top: 25px;
+}
+
+.explore {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.explore-text {
+  padding: 50px;
+  width: 55%;
+  margin-left: 23%;
+}
+
+.explore-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: 12.75%;
+}
+
+.explore-flex-element {
+  width: 10%;
+  padding-top: 30px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.explore-flex-element:hover {
+  cursor: pointer;
+}
+
+.explore-flex-text {
+  padding-top: 20px;
+}
+
+.payments {
+  background-color: royalblue;
+}
+
+.middle-box {
+  margin-left: 10%;
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 550px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.middle-box-right {
+  background-color: royalblue;
+  height: inherit;
+  padding: 35px;
+}
+
+.middle-box-text {
+  padding-top: 30px;
+}
+
+.middle-box-list-items {
+  padding-top: 20px;
+}
+
+.middle-box-learn-more {
+  color: white;
+  background-color: royalblue;
+  height: 50px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
 .solutions {
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -63,7 +194,7 @@ body {
   padding-top: 50px;
 }
 
-.learn-more-button {
+.solutions-learn-more-button {
   background-color: white;
   height: 30px;
   width: 150px;
@@ -129,11 +260,5 @@ h1 {
 .ellipse {
   width: 10px;
   height: 10px;
-  padding: 15px;
-  padding-top: 35px;
-}
-
-.sideimg {
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 22.5px;
 }

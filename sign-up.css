@@ -1,0 +1,113 @@
+body {
+  background-image: url(images/CRM-SignUp/Group\ 10.png);
+  background-repeat: no-repeat;
+  background-position: 80% 75px;
+  background-size: contain;
+  align-items: end;
+  font-family: "Roboto", sans-serif;
+  padding-right: 70%;
+  max-height: 30rem;
+  max-width: 100%;
+}
+.pagetitle {
+  margin: 25px;
+  padding: 0px;
+  font-size: 2.8em;
+  text-align: center;
+}
+.button {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 70px;
+  border-radius: 20px;
+  margin: 50px 0px;
+  cursor: pointer;
+  max-width: 60%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+.button:hover {
+  background-color: goldenrod;
+}
+.sign-up {
+  max-width: 30rem;
+  margin: 8% auto 0;
+  text-align: center;
+  height: 100%;
+}
+.or {
+  border: none;
+  font-weight: bold;
+  font-size: medium;
+  margin: -20px;
+  padding: -10px;
+  text-align: center;
+}
+.sign {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 25px 50px;
+  width: 100%;
+  border-radius: 30px;
+  height: 15px;
+}
+.circle {
+  width: 4rem;
+  border-radius: 4rem;
+}
+.circle:hover {
+  background-color: blue;
+}
+.circle2 {
+  max-width: 4rem;
+  margin-top: 0.77rem;
+  border-radius: 4rem;
+}
+.circle2:hover {
+  background-color: blue;
+}
+.fb {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.fb2 {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 1rem;
+}
+.twitter {
+  position: relative;
+  bottom: 25px;
+  left: 150px;
+}
+.twitter2 {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+  width: 2rem;
+}
+.google {
+  position: relative;
+  bottom: 90px;
+  left: 250px;
+}
+.google2 {
+  position: absolute;
+  width: 3.4rem;
+  border: solid ghostwhite;
+  border-radius: 4rem;
+}
+.indeed {
+  position: relative;
+  bottom: 90px;
+  left: 21.5rem;
+}
+.indeed2 {
+  position: absolute;
+  width: 3.4rem;
+  border: solid ghostwhite;
+  border-radius: 4rem;
+}
